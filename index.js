@@ -15,24 +15,28 @@ const numSearch = (arr, x) =>{
     // array variables
     let start = 0;
     let end = arr.length;
-    let mid = Math.floor[(start + end) / 2];
+    let mid = Math.floor((start + end) / 2);
 
-    let arr = arr;
-    let y;
     // find midle point and compare.
 
    while(start < end && x !== arr[mid]){
-       if( x < mid){
 
+       if( x < arr[mid]){
+           end = mid -1;
        }
+       else if (x > arr[mid]){
+           start = mid +1;
+       }
+       mid = Math.floor((start+end) /2);
    }
 
+   return (arr[mid] !== x) ? -1 : mid;
 
-
-// console.log  array copy
+        
 
 }
 
-numSearch(array, item)
+
+console.log(numSearch(array, item))
 
 
