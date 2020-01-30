@@ -12,7 +12,7 @@ const item = 4;
 // for function to array.length
 
 const numSearch = (arr, x) =>{
-
+    // array variables
     let start = arr[0];
     let end = arr[arr.length -1];
     let mid = Math.floor[(start + end) / 2];
@@ -22,7 +22,9 @@ const numSearch = (arr, x) =>{
     // find midle point and compare.
 
    while(start < end && x !== arr[mid]){
-       if( x < mid)
+       if( x < mid){
+           
+       }
    }
 
 
