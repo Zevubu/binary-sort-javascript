@@ -1,12 +1,12 @@
 //  A pre-sorted array : const
 
-const array = [1,2,3,4,5,6]
+const array = [1,20,33,48,52,67,143,198]
 
 // A copy of presorted array to edit.
 
 // a variable to add
 
-const item = 4;
+const item = 143;
 
 
 // for function to array.length
