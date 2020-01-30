@@ -15,21 +15,15 @@ const numSearch = (arr, x) =>{
 
     let start = arr[0];
     let end = arr[arr.length -1];
-    let mid = Math.floor[(start + end) / 2]
+    let mid = Math.floor[(start + end) / 2];
 
     let arr = arr;
+    let y;
     // find midle point and compare.
 
-    for(let i= 0; i < arr.length; i++){
-        if(x > arr[arr.length / 2]){
-            
-
-        }
-        else if (x < arr[arr.length / 2 + 1]){
-
-        }
-
-    }
+   while(start < end && x !== arr[mid]){
+       if( x < mid)
+   }
 
 
 
