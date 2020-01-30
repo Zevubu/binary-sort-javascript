@@ -13,8 +13,8 @@ const item = 4;
 
 const numSearch = (arr, x) =>{
     // array variables
-    let start = arr[0];
-    let end = arr[arr.length -1];
+    let start = 0;
+    let end = arr.length;
     let mid = Math.floor[(start + end) / 2];
 
     let arr = arr;
@@ -23,7 +23,7 @@ const numSearch = (arr, x) =>{
 
    while(start < end && x !== arr[mid]){
        if( x < mid){
-           
+
        }
    }
 
